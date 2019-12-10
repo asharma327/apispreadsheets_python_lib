@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="apispreadsheets",
-    version="0.0.1",
+    version="2.0.1",
     author="API Spreadsheets Team",
     author_email="info@apispreadsheets.com",
     description="Library for API Spreadsheets Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/asharma327/woyera_python.git",
+    url="https://github.com/asharma327/apispreadsheets_python_lib.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
