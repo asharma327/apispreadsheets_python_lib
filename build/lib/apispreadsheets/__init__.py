@@ -3,8 +3,8 @@ name = "apispreadsheets"
 import requests
 
 def get_base_url():
-    return "http://127.0.0.1:8000/data/"
-    # return "https://api-woyera.com/api/data/"
+    # return "http://127.0.0.1:8000/data/"
+    return "https://api-woyera.com/api/data/"
 
 def get_output_format(output_format):
     return "jsonRow" if output_format is None else output_format
